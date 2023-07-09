@@ -37,14 +37,44 @@ nav ul a{
 
 /* banner section*/
 
-.banner-info{
+
+.banner-container{
+height: 100vh;
+background-image: url("./team-young-specialist-doctors-standing-corridor-hospital.jpg"),
+linear-gradient(rgb(223, 239, 248), rgb(221, 211, 211) );
+background-blend-mode: overlay;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 text-align: center;
- 
+margin-bottom: 300px;
 
 }
 
 .banner-title{
+    font-size: 5rem;
+    color: rgb(12, 0, 0);
+
+}
+
+.text-one{
     color: red;
 }
 
+.text-three{
+    font-size:3rem;
+    color: rgb(95, 104, 184);
+}
 
+.btn-container{
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: aqua;
+}
