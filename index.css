@@ -1,4 +1,5 @@
 
+/* nav bar section start */
 
 .menu-container{
     display: flex;
@@ -32,9 +33,12 @@ nav ul a{
      text-decoration: none;
 }
 
+
+
+/* navbar section end */
  
 
-/* banner section*/
+/* banner section start*/
 
 
 .banner-container{
@@ -82,93 +86,38 @@ button:hover{
 
 
 
-/* banner section*/
-
-
-.service-container{
-         height: 100vh;
-         background-color: rgb(78, 77, 85);
-}
+/* banner section end*/
 
 
 
- .btn-container-1{
-
-    padding: 15px;
-    margin-top: 120px;
-    border-radius: 5px;
-    border: 0px;
-    font-size: 1rem;
- }
+/* service section start*/
 
 
- .service-container-right{
-    height: 400px;
-    width: 400px;
- }
-
-
- .service-container-1{
-    text-align: center;
- }
-
- .service-title{
-
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-
- }
-  .service-title-text{
-    font-size: 3rem;
-    color: red;
-
-  }
-
-
-.auther-container{
-    width: 400px;
-    height: 120x;
-    display: flex;
+.all-service-container{
+    height: 100vh;
+    background-color: rgb(117, 119, 121);
+    display:flex;
+    justify-content: space-between;
     align-items: center;
+    
+  
 
+    
 
-}
-
-.auther-profile{
-    border-radius: 90px;
-    width: 80px;
-    height:80px;
-}
-
-
-.auther-dec{
-    display: flex;
-   
-}
-
-.ceo-container{
-   margin-left: 10px;
-   color: aliceblue;
     
 }
 
-button{
-    padding:  5px;
-    margin-left:5px;
-    border:0px;
-    border-radius: 10px;
-    cursor: pointer;
+.logo-1{
+    width: 70px;
+
+}
+
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(167, 51, 51);
+    text-align: center;
+    
     
 }
 
-.pointer{
-    height: 40px;
-    width: 4px;
-    background-color: blue;
-    margin-left: 50px;
-    border-radius: 10px;
-}
-
-.service-des{
-    color: rgb(255, 255, 255);
-}
